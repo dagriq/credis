@@ -15,7 +15,9 @@ Download from the http://dev.maxmind.com/geoip/legacy/geolite/ website the GeoLi
 and unzip it in the standard Downloads folder  - every user account should have one.
 In the REPL the folowing commands will load the files:
 (use 'credis.import :reload-all)
+
 (load-blocks-file) or (load-blocks-file "the-full-path-to-the-geo-blocks.csv")
+
 (load-location-file) or (load-location-file "the-full-path-to-the-geo-locatio.csv")
 
 
